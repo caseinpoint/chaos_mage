@@ -1,0 +1,37 @@
+[
+	{
+		"title": "Force Tentacle",
+		"type": "Ranged spell",
+		"frequency": "At-Will",
+		"target": "One random nearby enemy",
+		"attack": "Charisma + Level vs. PD",
+		"hit": "1d10 + Charisma force damage.",
+		"miss": "Damage equal to your level.",
+		"advancement": "3rd level spell ✧ 3d10 damage.\n5th level spell ✧ 5d10 damage.\n7th level spell ✧ 7d10 damage.\n9th level spell ✧ 9d10 damage.",
+		"feats": {
+			"adventurer": "You can now also target far away enemies.",
+			"champion": "This spell’s damage dice increase by one size to d12s.",
+			"epic": "One battle per day, you can deal half damage on a natural even miss with this spell."
+		}
+	},
+	{
+		"title": "Chaos Ray",
+		"type": "Ranged spell",
+		"frequency": "Once per battle",
+		"target": "One nearby or far away enemy",
+		"attack": "Charisma + Level vs. PD",
+		"hit": "1d8 + Charisma damage.\nNatural Even Hit: As a hit, plus another nearby enemy takes half damage.",
+		"miss": "1d6 damage to a different nearby enemy.",
+		"advancement": "3rd level spell ✧ 4d6 damage ✧ 1d10 damage on a miss.\n5th level spell ✧ 6d6 damage ✧ 2d12 damage on a miss.\n7th level spell ✧ 6d10 damage ✧ 3d12 damage on a miss.\n9th level spell ✧ 8d10 damage ✧ 5d12 damage on a miss."
+	},
+	{
+		"title": "Blarrrrgh!",
+		"type": "Ranged spell",
+		"frequency": "Daily",
+		"target": "1d6 nearby enemies",
+		"attack": "Charisma + Level vs. PD",
+		"hit": "3d6 + Charisma damage, and roll a d4 for the effect (same damage for all targets but a separate effect for each one).\n1: The target is dazed (save ends).\n2: The target is weakened (save ends).\n3: The target is hampered until the end of your next turn.\n4: The target is confused until the end of your next turn.",
+		"miss": "Damage equal to your level.",
+		"advancement": "3rd level spell ✧ 6d6 damage.\n5th level spell ✧ 6d10 damage.\n7th level spell ✧ 10d10 damage.\n9th level spell ✧ 2d8 x 10 damage."
+	}
+]

@@ -1,0 +1,10 @@
+{
+	"feats": {
+		"adventurer": "If you have one or more Warp talents, whenever you make a d6 roll for one, also roll for a new high weirdness effect. The new effect replaces the weirdness effect currently active, if any.\n\tIf you have no Warp talents, roll for a new high weirdness effect whenever you draw an iconic spell.",
+		"champion": "Once per battle when you roll for a high weirdness effect, roll twice and use both results. Reroll duplicate results.",
+		"epic": "One battle per day, each time you roll for a high weirdness effect, roll twice and use both results. Reroll duplicate results. Good luck!"
+	},
+	"table": [
+		
+	]
+}

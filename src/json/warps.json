@@ -1,0 +1,47 @@
+{
+	"attack": {
+		"options": [
+			"Air: You gain flight until the end of your next turn.",
+			"Earth: Until the end of your next turn, each enemy that misses you with a melee attack is stuck until the end of its next turn.",
+			"Fire: Until the end of your next turn, you can pop free from staggered enemies as a quick action.",
+			"Water: You gain a bonus to disengage checks until the end of your next turn equal to your Dexterity modifier.",
+			"Metal: Until the end of your next turn, when an enemy disengages from you, it takes damage equal to your Dexterity modifier (double your Dexterity modifier at 5 th level; triple it at 8 th level).",
+			"Void: During your next turn, you can use a move action to teleport to a nearby location you can see."
+		],
+		"feats": {
+			"adventurer": "When you roll a successful disengage check, you gain temporary hit points equal to your Dexterity modifier (double your Dexterity modifier at 5 th level; triple it at 8 th level).",
+			"champion": "While you are flying due to any effect, you gain a bonus to disengage checks equal to your Dexterity modifier.",
+			"epic": "When one of your spells or powers lets you teleport to a nearby location, you can instead teleport to a far away location you can see."
+		}
+	},
+	"defense": {
+		"options": [
+			"Air: Once before the end of your next turn, you can heal using a recovery as a quick action.",
+			"Earth: You gain temporary hit points equal to your Wisdom modifier (double your Wisdom modifier at 5 th level; triple it at 8 th level).",
+			"Fire: Until the end of your next turn, when an enemy moves to engage you, it takes fire damage equal to your Wisdom modifier (double your Wisdom modifier at 5 th level; triple it at 8 th level).",
+			"Water: Until the end of your next turn, when you heal using a recovery, add hit points equal to your Wisdom modifier to that healing (double your Wisdom modifier at 5 th level; triple it at 8 th level).",
+			"Metal: Until the end of your next turn, you gain a +2 bonus to AC.",
+			"Void: Until the end of your next turn, the first time an attack hits you, as a free action you can choose to lose hit points equal to your level to force the attacker to reroll the attack."
+		],
+		"feats": {
+			"adventurer": "When you heal using a recovery, add hit points equal to the escalation die to that healing.",
+			"champion": "While you are at maximum hit points, you gain a +1 bonus to all defenses.",
+			"epic": "When an attacker rerolls an attack against you, it takes an attack penalty equal to your Wisdom modifier."
+		}
+	},
+	"icon": {
+		"options": [
+			"Air: Randomly determine two icon associations for the spell you’ll cast instead of one. Choose one of those associations to use for that spell.",
+			"Earth: Until the end of your next turn, you gain a bonus to PD and MD equal to your Intelligence modifier.",
+			"Fire: Until the end of your next turn, you gain the once-per-battle racial power of a random nearby ally; ignore this benefit if it duplicates your own racial power or if it doesn’t make sense during the battle (human, for example).",
+			"Water: Until the end of your next turn, you gain a bonus to saves equal to your Intelligence modifier.",
+			"Metal: Until the end of your next turn, critical hits scored against you only count as normal hits.",
+			"Void: Until the end of your next turn, when you cast a daily iconic spell, roll a hard save (16+). If you succeed, you don’t expend that use of a daily spell slot, but you still can’t cast that specific daily iconic spell again until you take a full heal-up."
+		],
+		"feats": {
+			"adventurer": "Once per battle when you roll for an iconic warp effect, roll the d6 twice and choose the result you want.",
+			"champion": "When you roll a natural 18–20 on a save, a nearby ally of your choice can roll a save against a save ends effect.",
+			"epic": "When you roll a natural 20 with an attack, the critical hit range of your attacks expands by 2 until the end of the battle (cumulative)."
+		}
+	}
+}
