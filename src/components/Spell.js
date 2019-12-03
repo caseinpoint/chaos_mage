@@ -1,5 +1,5 @@
 import React from 'react';
-import './Spell.css';
+// import './Spell.css';
 
 export default class Spell extends React.Component {
 	constructor(props) {

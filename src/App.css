@@ -1,6 +1,10 @@
-/* p {
+.bg_feat {
+	background-color: #d1ccd4;
+}
+
+p {
 	white-space: pre-line;
-} */
+}
 
 /* .App {
   text-align: center;
