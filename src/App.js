@@ -14,7 +14,8 @@ export default class App extends React.Component {
 		super(props);
 		this.state = {
 			currentCategory: '', currentIcon: '', currentWarp: undefined, currentWeird: undefined,
-			warpAttack: false, warpDefense: false, warpIcon: false, warpWeird: false, warpText: '',
+			warpAttack: false, warpDefense: false, warpIcon: false,
+			warpText: '', warpWeird: false, // warpWeird = High Weirdness adventurer feat
 			addNecromancy: false, addWizardry: false, addDivine: false, addSorcery: false,
 			spellLevel: '1'
 		};
@@ -71,6 +72,12 @@ export default class App extends React.Component {
 		}
 
 		this.setState({ arrCategories, currentCategory, currentIcon, currentWarp, warpText });
+
+		if (currentCategory === 'i' && this.state.warpWeird &&
+			!this.state.warpAttack && !this.state.warpDefense && !this.state.warpIcon) {
+			// High Weirdness should trigger on icon spells if adventurer feat and no warp talents
+			this.handleWeirdness();
+		}
 	}
 
 	handleDaily() {
@@ -88,6 +95,7 @@ export default class App extends React.Component {
 		if (this.state.addDivine === true) {
 			const r = Math.floor(Math.random() * clericJSON[this.state.spellLevel].length);
 			const spell = clericJSON[this.state.spellLevel][r];
+			console.log(spell);
 			if (spell.category === 'a') attackJSON.push(spell);
 			else defenseJSON.push(spell);
 		}
@@ -204,7 +212,7 @@ export default class App extends React.Component {
 									<option value="9">9</option>
 								</select>
 								<div className="input-group-append">
-									<button className="btn btn-success" onClick={this.handleDaily}>New Daily Spell(s)</button>
+									<button className="btn btn-success" onClick={this.handleDaily}>Next Daily Spell(s)</button>
 								</div>
 							</div>
 						</li>
