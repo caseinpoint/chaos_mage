@@ -12,6 +12,10 @@ export default class Spell extends React.Component {
 		else if (this.props.category === 'defense') color = 'success';
 		else color = 'primary';
 
+		if (this.state.charClass !== undefined) var charClass = <h4>({this.state.charClass} spell)</h4>;
+
+		if (this.state.action !== undefined) var action = <p><strong>Action:</strong> {this.state.action}</p>;
+
 		if (this.state.target !== undefined) var target = <p><strong>Target(s):</strong> {this.state.target}</p>;
 
 		if (this.state.effect !== undefined) var effect = <p><strong>Effect:</strong> {this.state.effect}</p>;
@@ -33,7 +37,9 @@ export default class Spell extends React.Component {
 		return (
 			<div className={`col-lg-6 col-md-12 my-1 rounded border border-${color}`}>
 				<h3 className={`text-${color}`}>{this.state.title} {this.state.level}</h3>
+				{charClass}
 				<p>{this.state.type} ◆ <strong>{this.state.frequency}</strong></p>
+				{action}
 				{target}
 				{effect}
 				{attack}

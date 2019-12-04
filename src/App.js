@@ -7,6 +7,7 @@ import defenseJSON from './json/defense';
 import iconJSON from './json/icon';
 import warpsJSON from './json/warps';
 import weirdnessJSON from './json/weirdness';
+import clericJSON from './json/cleric';
 
 export default class App extends React.Component {
 	constructor(props) {
@@ -23,7 +24,7 @@ export default class App extends React.Component {
 		this.handleInputChange = this.handleInputChange.bind(this);
 		this.handleRandom = this.handleRandom.bind(this);
 		this.handleWeirdness = this.handleWeirdness.bind(this);
-		// this.handleDaily = this.handleDaily.bind(this);
+		this.handleDaily = this.handleDaily.bind(this);
 	}
 
 	getSpellArray() {
@@ -70,6 +71,27 @@ export default class App extends React.Component {
 		}
 
 		this.setState({ arrCategories, currentCategory, currentIcon, currentWarp, warpText });
+	}
+
+	handleDaily() {
+		// clear old spell(s):
+		let i = attackJSON.length - 1;
+		while (attackJSON[i].charClass !== undefined) {
+			attackJSON.pop(); i--;
+		}
+		i = defenseJSON.length - 1;
+		while (defenseJSON[i].charClass !== undefined) {
+			defenseJSON.pop(); i--;
+		}
+
+		// add new spell(s):
+		if (this.state.addDivine === true) {
+			const r = Math.floor(Math.random() * clericJSON[this.state.spellLevel].length);
+			const spell = clericJSON[this.state.spellLevel][r];
+			if (spell.category === 'a') attackJSON.push(spell);
+			else defenseJSON.push(spell);
+		}
+		// TODO: finish the 3 other spellcaster class JSONs and copy the above if for each one
 	}
 
 	render() {
@@ -142,22 +164,22 @@ export default class App extends React.Component {
 									checked={this.state.warpIcon} onChange={this.handleInputChange}/>
 								<label className="form-check-label">Iconic Warp</label>
 							</div>
+							<button className="btn btn-info btn-sm mt-1" onClick={this.handleWeirdness}>Trigger High Weirdness</button>
 							<div className="form-check form-control-sm">
 								<input className="form-check-input" type="checkbox" name="warpWeird"
 									checked={this.state.warpWeird} onChange={this.handleInputChange}/>
-								<label className="form-check-label text-white-50">warp triggers weirdness</label>
+								<label className="form-check-label text-white-50">Weirdness adventurer feat</label>
 							</div>
-							<button className="btn btn-info btn-sm my-1" onClick={this.handleWeirdness}>Trigger High Weirdness</button>
 						</li>
 						<li className="nav-item text-left border-left pl-1">
 							<div className="form-check">
 								<input className="form-check-input" type="checkbox" name="addNecromancy"
-									checked={this.state.addNecromancy} onChange={this.handleInputChange} />
+									checked={this.state.addNecromancy} onChange={this.handleInputChange} disabled />
 								<label className="form-check-label">Stench of Necromancy</label>
 							</div>
 							<div className="form-check">
 								<input className="form-check-input" type="checkbox" name="addWizardry"
-									checked={this.state.addWizardry} onChange={this.handleInputChange} />
+									checked={this.state.addWizardry} onChange={this.handleInputChange} disabled />
 								<label className="form-check-label">Touch of Wizardry</label>
 							</div>
 							<div className="form-check">
@@ -167,7 +189,7 @@ export default class App extends React.Component {
 							</div>
 							<div className="form-check">
 								<input className="form-check-input" type="checkbox" name="addSorcery"
-									checked={this.state.addSorcery} onChange={this.handleInputChange} />
+									checked={this.state.addSorcery} onChange={this.handleInputChange} disabled />
 								<label className="form-check-label">Whiff of Sorcery</label>
 							</div>
 							<div className="input-group input-group-sm my-1">
@@ -182,7 +204,7 @@ export default class App extends React.Component {
 									<option value="9">9</option>
 								</select>
 								<div className="input-group-append">
-									<button className="btn btn-success">New Daily Spell(s)</button>
+									<button className="btn btn-success" onClick={this.handleDaily}>New Daily Spell(s)</button>
 								</div>
 							</div>
 						</li>
