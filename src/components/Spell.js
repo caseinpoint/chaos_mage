@@ -22,7 +22,7 @@ export default class Spell extends React.Component {
 
 		if (this.state.miss !== undefined) var miss = <p><strong>Miss:</strong> {this.state.miss}</p>;
 
-		if (this.state.advancement !== undefined) var advancement = <p>{this.state.advancement}</p>;
+		if (this.state.advancement !== undefined) var advancement = <p><strong>Advancement:</strong><br/>{this.state.advancement}</p>;
 
 		if (this.state.feats !== undefined) var feats = (<div>
 			<p className="bg_feat"><strong>Adventurer Feat:</strong> {this.state.feats.adventurer}</p>

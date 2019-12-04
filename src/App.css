@@ -1,9 +1,16 @@
+p {
+	white-space: pre-line;
+	margin-bottom: .5rem;
+}
+
 .bg_feat {
 	background-color: #d1ccd4;
 }
 
-p {
-	white-space: pre-line;
+.text_small {
+	font-size: .75rem;
+	margin-bottom: .25rem;
+	color: black;
 }
 
 /* .App {
