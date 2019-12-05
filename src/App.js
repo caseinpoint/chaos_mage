@@ -146,6 +146,7 @@ export default class App extends React.Component {
 			);
 		}
 
+		// TODO: make the nav its own component
 		return (
 			<div key="container" className="container-fluid">
 
@@ -153,10 +154,10 @@ export default class App extends React.Component {
 					<div className="col-12 border-bottom"><h1 className="text-center text-light">Chaos Mage</h1></div>
 
 					<div className="col-12"><ul className="nav nav-fill text-light">
-						<li className="nav-item">
-							<button className="btn btn-warning btn-lg mt-5" onClick={this.handleRandom}>Next Spell Category</button>
+						<li className="nav-item border-bottom">
+							<button className="btn btn-warning btn-lg my-5" onClick={this.handleRandom}>Next Spell Category</button>
 						</li>
-						<li className="nav-item text-left border-left pl-1">
+						<li className="nav-item text-left border-left border-right border-bottom pl-1">
 							<div className="form-check">
 								<input className="form-check-input" type="checkbox" name="warpAttack"
 									checked={this.state.warpAttack} onChange={this.handleInputChange}/>
@@ -179,7 +180,7 @@ export default class App extends React.Component {
 								<label className="form-check-label text-white-50">Weirdness adventurer feat</label>
 							</div>
 						</li>
-						<li className="nav-item text-left border-left pl-1">
+						<li className="nav-item text-left pl-1 border-bottom">
 							<div className="form-check">
 								<input className="form-check-input" type="checkbox" name="addNecromancy"
 									checked={this.state.addNecromancy} onChange={this.handleInputChange} disabled />
@@ -220,11 +221,11 @@ export default class App extends React.Component {
 				</div>
 
 				<div className="row text-light">
-					<div className="col-6 py-1 bg-secondary border">
+					<div className="col-lg-6 col-md-12 py-1 bg-secondary border-right">
 						<h5>Warp:</h5>
 						{warp}
 					</div>
-					<div className="col-6 py-1 bg-info border">
+					<div className="col-lg-6 col-md-12 py-1 bg-info">
 						<h5>High Weirdness:</h5>
 						<p>{this.state.currentWeird}</p>
 						<p className="bg_feat text_small"><strong>Adventurer Feat:</strong> {weirdnessJSON.feats.adventurer}</p>
