@@ -29,7 +29,8 @@
 			"title": "Javelin of Faith",
 			"level": "(1st Level+)",
 			"type": "Ranged spell",
-			"frequency": "One nearby enemy",
+			"frequency": "At-Will",
+			"target": "One nearby enemy",
 			"attack": "Wisdom + Level vs. PD",
 			"hit": "1d6 + Wisdom holy damage.",
 			"miss": "Damage equal to your level."
