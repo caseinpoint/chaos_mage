@@ -8,6 +8,7 @@
 				"type": "Ranged spell",
 				"frequency": "At-Will",
 				"target": "1d3 nearby enemies",
+				"effect": "The target takes 4 force damage",
 				"advancement": "3rd level spell ✧ 7 damage.\n5th level spell ✧ 10 damage.\n7th level spell ✧ 14 damage.\n9th level spell ✧ 27 damage.",
 				"feats": {
 					"adventurer": "This spell now targets 1d4 nearby or far away enemies.",

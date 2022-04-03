@@ -1,0 +1,100 @@
+01  10d100 hours have passed 
+02  1d4 turns have passed per level of the caster  
+03  she has attained fluency in 1d4 additional languages 
+04  she has attained fluency in one additional language 
+05  she has been awarded a title by royalty 
+06  she has been branded with a hot iron like a bull 
+07  she has been formally pardoned by the king 
+08  she has been reduced to one hit point 
+09  she has been resurrected 
+10  she has been stabbed by a silver weapon 
+11  she has been tried and imprisoned for heresy 
+12  she has bested 10d10 warriors in single combat 
+13  she has bought a hugely expensive home and burned it down 
+14  she has broken every finger on one of her hands 
+15  she has built 2d10 snowmen 
+16  she has burned down her current home 
+17  she has burned herself for 2d20 total hit points of fire damage 
+18  she has carried a gallon of water from the sea to this spot 
+19  she has carried a stone from this spot to the sea 
+20  she has carved her full name in 10d10 different trees 
+21  she has circumnavigated the globe without using magic to do so 
+22  she has composed 3d4 sonnets 
+23  she has cut off 1d4 fingers 
+24  she has cut off her own ear 
+25  she has destroyed every book that she owns 
+26  she has destroyed every table within 1d4 miles 
+27  she has destroyed her most prized possession 
+28  she has dug a functioning and productive well on this spot 
+29  she has eaten 1,000 gold pieces worth of gold 
+30  she has eaten 1d4 pounds of soil 
+31  she has eaten 1d4 X her weight in squirrels 
+32  she has eaten 2d6 pounds of cured leather 
+33  she has eaten an entire, live chicken 
+34  she has extracted 1d4 of her own teeth 
+35  she has felled 3d6 trees older than she is 
+36  she has forged a sword from meteoric iron 
+37  she has found a lost city hidden in the desert 
+38  she has founded a cult 
+39  she has gained a level 
+40  she has gone 10d10 days and nights without speaking 
+41  she has gone 1d4 weeks without exposure to direct sunlight 
+42  she has gone one full month without using magic or any magic items 
+43  she has had a personal audience with 1d6 different deities 
+44  she has hand-carved a marble statue of herself  
+45  she has hidden a cursed ruby beneath a tall mountain 
+46  she has imbibed 1d4 pints of lamp oil 
+47  she has imbibed 1d8 pints of her own blood 
+48  she has located and destroyed an artifact 
+49  she has lost a level 
+50  she has lost a total of 3d10 hit points due to burns from acid  
+51  she has lost a total of 3d10 hit points due to electrical damage 
+52  she has manually unearthed a diamond larger than her head 
+53  she has married 
+54  she has married, divorced, and remarried 1d4 times 
+55  she has produced an heir 
+56  she has razed the nearest wooden structure 
+57  she has remained awake for 4d6 consecutive days and nights 
+58  she has restored the nearest undead creature to life 
+59  she has retrieved a particular gold coin from the bottom of the sea 
+60  she has rid herself of all magic items 
+61  she has rid the nearest town of mice and rats 
+62  she has rolled less than her weight on 1d1000, one attempt per day 
+63  she has rolled less than her Wisdom on 1d100, one attempt per day 
+64  she has scaled the tallest mountian on the continent 
+65  she has sharpened every blade within 1d10 miles 
+66  she has shaved her head completely bald 
+67  she has shed 2d10 pounds 
+68  she has single-handedly dammed the nearest river 
+69  she has slain 1d10 undead 
+70  she has slain 1d6 kings 
+71  she has spent 1,000,000 gold pieces with nothing to show for it 
+72  she has spent 1d4 days and nights at the bottom of a deep well 
+73  she has spent a night in a sty with at least 3d10 pigs 
+74  she has spent a night in each of 2d6 dragons' lairs 
+75  she has spent an entire night at the bottom of a lake 
+76  she has spent an entire night naked and unprotected in snow 
+77  she has spent an entire night sealed in a barrel 
+78  she has spent an entire night up to her neck in offal 
+79  she has stabbed herself with a weapon that she forged 
+80  she has swallowed 4d10 gallons of water 
+81  she has swallowed a pint of molten lead 
+82  she has tattooed 10d100 cryptic runes on her skin 
+83  she has thwarted an assassination attempt against the king 
+84  she has triggered 1d4 additional wild surges 
+85  she has visited both of the world's magnetic poles 
+86  she has waded along the shores of 1d4 oceans 
+87  she has walked 10d100 miles 
+88  she has walked on the floor of the ocean 
+89  she has walked on the surface of the moon 
+90  she has walked the shores of hell 
+91  she has woven a six foot length of rope from her own hair 
+92  she has written her full name in 10d10 different books 
+93  she unearths 1d4 pounds of gold 
+94  her next birthday 
+95  her son produces an heir 
+96  one year and one day have passed 
+97  the current king has died 
+98  the next total lunar eclipse occurs 
+99  she has performed an exorcism on a member of the royal family 
+00  she has been bitten by 1d6 different lycanthropes 

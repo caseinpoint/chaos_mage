@@ -81,7 +81,7 @@
 			"charClass": "Cleric", "category": "a",
 			"title": "Combat Boon",
 			"level": "(3rd Level+)",
-			"type": "Clos-quarters spell",
+			"type": "Close-quarters spell",
 			"frequency": "At-Will",
 			"effect": "Make a basic melee attack. If the attack hits, you or one conscious nearby ally can roll a save against a save ends effect."
 		},
