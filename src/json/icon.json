@@ -68,10 +68,10 @@
 				"attack": "Charisma + Level vs. MD",
 				"hit": "3d6 + Charisma psychic damage.",
 				"miss": "Damage equal to your level.",
-				"advancement": "3rd level spell ✧ 6d6 damage ✧ ou or ally loses 2d6 hit points.\n5th level spell ✧ 6d10 damage ✧ you or ally loses 4d6 hit points.\n7th level spell ✧ 10d10 damage ✧ you or ally loses 6d6 hit points.\n9th level spell ✧ 2d8 x 10 damage ✧ you or ally loses 8d6 hit points.",
+				"advancement": "3rd level spell ✧ 6d6 damage ✧ You or ally loses 2d6 hit points.\n5th level spell ✧ 6d10 damage ✧ you or ally loses 4d6 hit points.\n7th level spell ✧ 10d10 damage ✧ you or ally loses 6d6 hit points.\n9th level spell ✧ 2d8 x 10 damage ✧ you or ally loses 8d6 hit points.",
 				"feats": {
 					"adventurer": "The spell now deals half damage on a miss.",
-					"champion": "ou or an ally now lose one less die of hit points (for example, 3d6 instead of 4d6).",
+					"champion": "You or an ally now lose one less die of hit points (for example, 3d6 instead of 4d6).",
 					"epic": "The first time each battle you miss with this spell, if the escalation die is 3+, you can reroll the attack by having you or your ally lose the same amount of hit points again."
 				}
 			},
@@ -81,7 +81,7 @@
 				"type": "Ranged spell",
 				"frequency": "Daily",
 				"target": "You or one nearby ally; the target must have a positive or conflicted relationship with a villainous icon",
-				"effect": "The target rolls a save against each save ends effectbaffecting it. Then the target can heal using a recovery from a nearby ally (target’s choice, even if that ally isn’t willing)."
+				"effect": "The target rolls a save against each save ends effect affecting it. Then the target can heal using a recovery from a nearby ally (target’s choice, even if that ally isn’t willing)."
 			}
 		]
 	},
