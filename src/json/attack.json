@@ -10,7 +10,7 @@
 		"advancement": "3rd level spell ✧ 3d10 damage.\n5th level spell ✧ 5d10 damage.\n7th level spell ✧ 7d10 damage.\n9th level spell ✧ 9d10 damage.",
 		"feats": {
 			"adventurer": "You can now also target far away enemies.",
-			"champion": "This spell’s damage dice increase by one size to d12s.",
+			"champion": "This spell's damage dice increase by one size to d12s.",
 			"epic": "One battle per day, you can deal half damage on a natural even miss with this spell."
 		}
 	},

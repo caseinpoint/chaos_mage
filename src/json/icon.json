@@ -41,7 +41,7 @@
 				"miss": "Damage equal to your level.",
 				"advancement": "3rd level spell ✧ 3d6 damage.\n5th level spell ✧ 5d6 damage.\n7th level spell ✧ 5d8 damage.\n9th level spell ✧ 6d10 damage.",
 				"feats": {
-					"adventurer": "When you hit a demon with this spell, it’s also hampered (save ends).",
+					"adventurer": "When you hit a demon with this spell, it's also hampered (save ends).",
 					"champion": "The damage dice for the spell increase by one size (for example, d6s to d8s).",
 					"epic": "The spell now deals half damage on a miss."
 				}
@@ -81,7 +81,7 @@
 				"type": "Ranged spell",
 				"frequency": "Daily",
 				"target": "You or one nearby ally; the target must have a positive or conflicted relationship with a villainous icon",
-				"effect": "The target rolls a save against each save ends effect affecting it. Then the target can heal using a recovery from a nearby ally (target’s choice, even if that ally isn’t willing)."
+				"effect": "The target rolls a save against each save ends effect affecting it. Then the target can heal using a recovery from a nearby ally (target's choice, even if that ally isn't willing)."
 			}
 		]
 	},
@@ -94,7 +94,7 @@
 				"type": "Ranged spell",
 				"frequency": "At-Will",
 				"target": "You or one ally in the battle, chosen randomly",
-				"effect": "Roll a d20.\n1–10: The target can heal using a recovery.\n11–20: The target can make a basic attack as a free action.",
+				"effect": "Roll a d20.\n1-10: The target can heal using a recovery.\n11-20: The target can make a basic attack as a free action.",
 				"feats": {
 					"adventurer": "When this spell allows a target to attack, the attack deals half damage on a miss instead of normal miss damage.",
 					"champion": "The target can move as a free action before using a recovery or attacking.",
@@ -107,7 +107,7 @@
 				"type": "Ranged spell",
 				"frequency": "Daily",
 				"target": "One nearby ally",
-				"effect": "The target can heal using a free recovery, adding hit points equal to 1d6 x the escalation die to that healing. Unless you or the target is a dwarf, randomly choose one of the target’s true magic items. You actively gain that item’s quirk until the end of the day."
+				"effect": "The target can heal using a free recovery, adding hit points equal to 1d6 x the escalation die to that healing. Unless you or the target is a dwarf, randomly choose one of the target's true magic items. You actively gain that item's quirk until the end of the day."
 			}
 		]
 	},
@@ -139,7 +139,7 @@
 				"attack": "Charisma + Level vs. MD",
 				"hit": "The target is confused until the end of its next turn.",
 				"feats": {
-					"champion": "Once per battle when a staggered enemy misses you with an attack while this spell’s effect is active, you can make the attack against that enemy.",
+					"champion": "Once per battle when a staggered enemy misses you with an attack while this spell's effect is active, you can make the attack against that enemy.",
 					"epic": "When you make a natural even roll with a coronation attack, you can have the target become confused (save ends) instead of taking damage."
 				}
 			}
@@ -153,7 +153,7 @@
 				"level": "(1st Level+)",
 				"type": "Ranged spell",
 				"frequency": "At-Will",
-				"target": "One nearby enemy\nSpecial: This spell attack ignores all the target’s resistances.",
+				"target": "One nearby enemy\nSpecial: This spell attack ignores all the target's resistances.",
 				"attack": "Charisma + Level vs. PD",
 				"hit": "1d8 + Charisma fire damage, and the target loses its resist damage abilities, if any (hard save ends, 16+).",
 				"miss": "Damage equal to your level.",
@@ -171,7 +171,7 @@
 				"frequency": "Daily",
 				"target": "1d4 nearby enemies in a group",
 				"attack": "Charisma + Level vs. PD",
-				"hit": "7d6 + Charisma fire damage.\nNatural Even Hit: As a hit, plus if the target is staggered after the attack, it’s also stunned until the end of its next turn.",
+				"hit": "7d6 + Charisma fire damage.\nNatural Even Hit: As a hit, plus if the target is staggered after the attack, it's also stunned until the end of its next turn.",
 				"miss": "Damage equal to your level.",
 				"advancement": "7th level spell ✧ 9d10 damage.\n9th level spell ✧ 2d6 x 10 damage.",
 				"feats": {
@@ -204,7 +204,7 @@
 				"level": "(3rd Level+)",
 				"type": "Ranged spell",
 				"frequency": "Daily",
-				"effect": "You and each of your nearby allies each heal hit points equal to 1d6 x the number of recoveries that character has expended this day. (And no, free recoveries don’t count; this spell only counts the resources you’ve expended.)",
+				"effect": "You and each of your nearby allies each heal hit points equal to 1d6 x the number of recoveries that character has expended this day. (And no, free recoveries don't count; this spell only counts the resources you've expended.)",
 				"advancement": "5th level spell ✧ 1d10 x the number of recoveries.\n7th level spell ✧ 2d6 x the number of recoveries.\n9th level spell ✧ 2d10 x the number of recoveries."
 			}
 		]
@@ -233,14 +233,14 @@
 				"level": "(7th Level+)",
 				"type": "Ranged spell",
 				"frequency": "Daily",
-				"target": "One nearby non-undead enemy that the GM hasn’t given a proper name, or that doesn’t play a key role in the current storyline",
+				"target": "One nearby non-undead enemy that the GM hasn't given a proper name, or that doesn't play a key role in the current storyline",
 				"attack": "Charisma + Level vs. MD",
-				"hit": "The target is sent elsewhere, possibly to a location that’s close enough for the PCs to have to deal with it in a subsequent battle. It might also go somewhere “interesting.” See the sidebar below if you feel like rolling for it, GM.\n Replace the target with the GM’s choice of an undamaged and hostile undead creature that is one level lower than the original target. If the target was a large or double-strength creature, the replacement must be large or double-strength, or perhaps two normal undead instead of one show up. Ditto for huge/triple-strength targets. Therefore you’re only slightly reducing the raw power of the opposition; the advantage of using the spell is that you’re getting rid of an enemy you match up badly against and dropping the level of the opposition by one. The disadvantage, of course, is that you’ll probably have to face that enemy again.",
+				"hit": "The target is sent elsewhere, possibly to a location that's close enough for the PCs to have to deal with it in a subsequent battle. It might also go somewhere “interesting.” See the sidebar below if you feel like rolling for it, GM.\n Replace the target with the GM's choice of an undamaged and hostile undead creature that is one level lower than the original target. If the target was a large or double-strength creature, the replacement must be large or double-strength, or perhaps two normal undead instead of one show up. Ditto for huge/triple-strength targets. Therefore you're only slightly reducing the raw power of the opposition; the advantage of using the spell is that you're getting rid of an enemy you match up badly against and dropping the level of the opposition by one. The disadvantage, of course, is that you'll probably have to face that enemy again.",
 				"miss": "7d10 + Charisma psychic damage.",
 				"advancement": "9th level spell ✧ 8d10 + Charisma psychic damage on a miss.",
 				"feats": {
 					"champion": "This spell can now also target an entire mob of mooks. If the attack hits, replace them with a mob of undead mooks that is one level lower.",
-					"epic": "You don’t expend the spell when you miss with it."
+					"epic": "You don't expend the spell when you miss with it."
 				}
 			}
 		]
@@ -257,8 +257,8 @@
 				"advancement": "3rd level spell ✧ 23 extra damage.\n5th level spell ✧ 33 extra damage.\n7th level spell ✧ 53 extra damage.\n9th level spell ✧ 83 extra damage.",
 				"feats": {
 					"adventurer": "Add your Charisma modifier to the extra damage (double your Charisma modifier at 5 th level; triple it at 8 th level).",
-					"champion": "When you cast this spell, each nearby enemy that’s staggered also takes 2d6 thunder damage (4d6 thunder damage at 8 th level).",
-					"epic": "When this spell’s effect deals the extra damage, you can roll a hard save (16+). If you succeed, the war drums keep beating and the effect extends to the next natural odd hit this battle! (And so on if you keep succeeding.)"
+					"champion": "When you cast this spell, each nearby enemy that's staggered also takes 2d6 thunder damage (4d6 thunder damage at 8 th level).",
+					"epic": "When this spell's effect deals the extra damage, you can roll a hard save (16+). If you succeed, the war drums keep beating and the effect extends to the next natural odd hit this battle! (And so on if you keep succeeding.)"
 				}
 			},
 			{
@@ -266,12 +266,12 @@
 				"level": "(3rd Level+)",
 				"type": "Ranged spell",
 				"frequency": "Daily",
-				"target": "Each nearby creature that’s staggered (yes, including allies, even those who are dying)",
+				"target": "Each nearby creature that's staggered (yes, including allies, even those who are dying)",
 				"effect": "Each target takes 5d6 + Charisma damage.",
 				"advancement": "5th level spell ✧ 5d8 damage.\n7th level spell ✧ 7d10 damage.\n9th level spell ✧ 10d10 damage.",
 				"feats": {
 					"adventurer": "The spell no longer targets your allies.",
-					"champion": "The spell’s damage dice increase by one size (for example, d10s to d12s).",
+					"champion": "The spell's damage dice increase by one size (for example, d10s to d12s).",
 					"epic": "When you drop one or more non-mook creatures to 0 hp with this spell, you can heal using a free recovery."
 				}
 			}
@@ -293,7 +293,7 @@
 				"feats": {
 					"adventurer": "When you miss with the spell, one of your nearby allies now gains the temporary hit points.",
 					"champion": "This spell now deals half damage on a miss.",
-					"epic": "You can now target a far away enemy with this spell. In addition, the spell’s damage dice increase by one size from d8s to d10s."
+					"epic": "You can now target a far away enemy with this spell. In addition, the spell's damage dice increase by one size from d8s to d10s."
 				}
 			},
 			{
@@ -321,7 +321,7 @@
 				"type": "Ranged spell",
 				"frequency": "At-Will",
 				"target": "Two nearby creatures, enemies or allies (including you)",
-				"effect": "The targets teleport and swap places. Each teleported enemy takes 1d6 damage. You and your allies don’t take damage from teleporting.",
+				"effect": "The targets teleport and swap places. Each teleported enemy takes 1d6 damage. You and your allies don't take damage from teleporting.",
 				"advancement": "3rd level spell ✧ 2d6 damage.\n5th level spell ✧ 2d10 damage.\n7th level spell ✧ 3d12 damage.\n9 th level spell ✧ 4d12 damage.",
 				"feats": {
 					"adventurer": "Once per day, one or more targets of the spell can be far away.",
@@ -334,7 +334,7 @@
 				"level": "(3rd Level+)",
 				"type": "Close-quarters spell",
 				"frequency": "Once per battle",
-				"effect": "Remove yourself from the battle (you can’t be targeted by attacks or effects while in the shadows). At the start of your next turn, return to the battle nearby your previous locationand roll a d6 to determine a random benefit you gain from coming out of the shadows.\n1–4: You can heal using a recovery.\n5+: You deal double damage to the first target you hit with a chaos mage spell this turn.",
+				"effect": "Remove yourself from the battle (you can't be targeted by attacks or effects while in the shadows). At the start of your next turn, return to the battle nearby your previous locationand roll a d6 to determine a random benefit you gain from coming out of the shadows.\n1-4: You can heal using a recovery.\n5+: You deal double damage to the first target you hit with a chaos mage spell this turn.",
 				"feats": {
 					"champion": "You can choose to add +1 to the d6 roll after seeing it.",
 					"epic": "If you roll 6+, you gain both effects."
@@ -352,7 +352,7 @@
 				"frequency": "At-Will",
 				"target": "One nearby enemy",
 				"attack": "Charisma + Level vs. PD",
-				"hit": "Natural Even Hit: 1d6 + Charisma fire damage.\nNatural Odd Hit: Lightning damage equal to half the damage from a natural even hit, and you can roll another twisted beam attack against an enemy you haven’t targeted with it this turn.",
+				"hit": "Natural Even Hit: 1d6 + Charisma fire damage.\nNatural Odd Hit: Lightning damage equal to half the damage from a natural even hit, and you can roll another twisted beam attack against an enemy you haven't targeted with it this turn.",
 				"miss": "Natural Even Miss: 3 ongoing acid damage.",
 				"advancement": "3rd level spell ✧ 3d6 damage ✧ 6 ongoing damage.\n5th level spell ✧ 5d6 damage ✧ 9 ongoing damage.\n7th level spell ✧ 7d8 damage ✧ 12 ongoing damage.\n9th level spell ✧ 9d8 damage ✧ 18 ongoing damage.",
 				"feats": {
